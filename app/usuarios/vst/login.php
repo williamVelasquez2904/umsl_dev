@@ -56,11 +56,11 @@
  -->
 			<h2 class="pull-left" style="padding-left:30px">
 
-				<span class="white"><?php echo "UNIDAD MEDICA SAN LUIS. concordia" ?></span>
+				<span class="white"><?php echo "UNIDAD MEDICA SAN LUIS." ?></span>
 
 				<div class="space-0"></div>
 
-				<span class="white"><?php echo "HISTORIAS MEDICAS" ?></span>
+				<span class="white"><?php echo "Control Epidemiológico" ?></span>
 
 			</h2>
 <!-- 
