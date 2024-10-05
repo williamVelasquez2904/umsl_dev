@@ -56,7 +56,7 @@
  -->
 			<h2 class="pull-left" style="padding-left:30px">
 
-				<span class="white"><?php echo "UNIDAD MEDICA SAN LUIS" ?></span>
+				<span class="white"><?php echo "UNIDAD MEDICA SAN LUIS. concordia" ?></span>
 
 				<div class="space-0"></div>
 
