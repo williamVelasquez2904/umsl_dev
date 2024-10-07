@@ -1,10 +1,10 @@
-<?php class mCliente {
+<?php class mPatient {
 
 	function __clone() {}
 	function __construct() {}
 
 	public function lista() {
-		$sql = "SELECT * FROM vw_paciente ORDER BY clien_nombre1 ASC";
+		$sql = "SELECT * FROM vw_paciente ORDER BY pac_ide ASC";
 		$datos = array(0);
 		return Enlace::sql($sql,$datos,3,'');
 	}
@@ -16,7 +16,7 @@
 	}
 
 	public function poride($ide) {
-		$sql = "SELECT * FROM vw_paciente WHERE clien_ide=?";
+		$sql = "SELECT * FROM vw_paciente WHERE pac_ide=?";
 		$datos = array($ide);
 		return Enlace::sql($sql,$datos,3,'');
 	}
