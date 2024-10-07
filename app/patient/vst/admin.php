@@ -1,7 +1,7 @@
 <?php $row = $mpatient->lista(); ?>
 <form action="" class="op0">
 	<div class="form-group">
-		<label for="" class="label control-label col-sm-12 bolder">Buscar Paciente:</label>
+		<label for="" class="label control-label col-sm-12 bolder">[07-10-2024. Patient] - Buscar Paciente:</label>
 		<div class="col-sm-9">
 			<input type="text" class="form-control" id="buscarpaciente" name="clien">
 		</div>
@@ -65,9 +65,9 @@
 			submitHandler: function (form) {
 				$.post('prc-cpatient-buscar',$(formulario).serialize(),function(data){
 					if(data.trim()=='no') {
-						load('vst-cliente-insert','','.perfil');
+						load('vst-patient-insert','','.perfil');
 					} else {
-						load('vst-cliente-datos.personales','clien_ide='+data.trim(),'.perfil');
+						load('vst-patient-datos.personales','clien_ide='+data.trim(),'.perfil');
 					}
 				})
 			},
