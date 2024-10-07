@@ -1,6 +1,6 @@
 <?php require '../../../cfg/base.php'; ?>
 <div class="alert alert-info">
-	<i class="fa fa-exclamation-triangle fa-2x pull-left red"></i>[07-10-2024. insert] Por favor rellene el siguiente formulario para agregar un cliente.
+	<i class="fa fa-exclamation-triangle fa-2x pull-left red"></i>[07-10-2024. insert] Por favor rellene el siguiente formulario para agregar un Paciente.
 </div>
 <form action="" class="op1-clien">
 	<div class="msj-clien" id="errores"></div>
